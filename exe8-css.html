@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Document</title>
+    <style>
+        body,html{
+          width: 100%;
+        }  
+        body{
+        background-image: url("0.jpg");
+            display: flex;
+         justify-content: center;
+         align-items: center;
+        }  
+        .register{
+            box-shadow: 0px 2px 2px rgb(125, 113, 113);
+          width: 400px;
+          background-color: rgba(150, 132, 132, 0.571);
+          padding: 50px;
+        }  
+        .register h2, .desc{
+           text-align: center;
+        }  
+        .register-content{
+           width: 90%;
+           margin: auto;
+        }  
+        .form-control{
+           display: block;
+           width: 100%;
+           padding: 10px;
+           box-sizing: border-box;
+        }  
+        .two{
+           display: flex;
+           justify-content: space-between;
+        }  
+        .form-text{
+           padding: 10px;
+        }  
+        .btn-success{
+           background-color: green;
+           color: white;
+           border: transparent;
+           font-weight: bold;
+           border-radius: 5px;
+        }  
+        .register a{
+           text-decoration: none;
+           color: #28a745;
+        }  
+    </style>
+</head>
+<body >
+    <div style="transform: translate(0px,80px);" class="register">
+        <form action="#">
+            <h2 style="font-size: xxx-large;">Register</h2>
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="desc">Create your account its free and only take a minute</p>
+            <div class="register-content">
+                <div class="two">
+                    <input class="form-text" type="text" placeholder="first name">
+                    <input class="form-text" type="text" placeholder="last name">
+                </div>
+                <p>
+                    <input class="form-control" type="email"placeholder="Email">
+                    </p>
+                    <p>
+                    <input class="form-control" type="password"placeholder="password">
+                    </p>
+                    <p>
+                <input class="form-control" type="password"placeholder="confirm password">
+                </p>
+                <p>
+                <input type="checkbox">
+                I Accept The  <a href="#">  terms of use & privacy policy</a>
+                </p>
+                <input class="form-control btn-success" type="submit" value="Register Now">
+            </div>
+        </form>
+    </div>
+    
+    
+</body>
+</html>

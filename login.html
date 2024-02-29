@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        body,html{
+          margin: 0px;
+          height: 100%;
+          
+        }  
+        body{
+         background-image: url("0.jpg");
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }  
+        .sign-in{
+          width: 600px;
+          height: 500PX;
+          text-align: center;
+          background-color:gainsboro;
+          border-radius: 20px;
+          padding: 35px;
+          opacity:  0.7;
+          box-shadow: inset;
+        }  
+        .form-control{
+          width: 70%;
+          font-size: 16px;
+          padding: 5px;
+          box-sizing: border-box;
+        } 
+        input[type="text"] {
+          border: 1px solid #ccc;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }  
+        input[type="password"] {
+          border: 1px solid #ccc;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }  
+        input[type="submit"] {
+          background-color:#007bff;
+          font-weight: 400;
+          font-size: 16px;
+          color: white;
+          padding: 10px;
+        }  
+    </style>
+</head>
+<body>
+    <div class="sign-in">
+        <form action="#">
+            <h2>Please sign in</h2>
+            <input class="form-control" type="text"placeholder="Email adress">
+            <input class="form-control" type="password"placeholder="password">
+            <p>
+               <input type="checkbox"> Remember me
+
+            </p>
+            <input class="form-control" type="submit"value="sign in">
+            <hr>OU<hr>
+            <form action="exe8-css.html" method="GET">
+              <div>
+                <input class="form-control" type="submit" value="Create an account">
+              </div>
+            </form>
+            
+          <!-- <div><a href="exe8-css.html"><input class="form-control" type="submit"value="create an account"></a></div> -->
+            <p>&copy;2023-2024</p>
+
+        </form>
+    </div>
+</body>
+</html>
